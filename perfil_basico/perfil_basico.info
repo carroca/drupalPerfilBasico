@@ -1,0 +1,46 @@
+name = RBcode perfil basico
+description = Perfil de instalacion basico de RBcode.
+version = VERSION
+core = 7.x
+
+; Modulos del core
+
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = locale
+dependencies[] = update
+
+; Modulos adicionales
+
+dependencies[] = admin_menu
+;dependencies[] = admin_menu_toolbar
+dependencies[] = adminimal_admin_menu
+dependencies[] = backup_migrate
+dependencies[] = ctools
+dependencies[] = variable
+dependencies[] = i18n
+dependencies[] = l10n_update
+dependencies[] = libraries
+dependencies[] = token
+dependencies[] = pathauto
+dependencies[] = transliteration
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = wysiwyg
+dependencies[] = module_filter
+
+; Information added by Drupal.org packaging script on 2014-07-16
+version = "7.29"
+project = "drupal"
+datestamp = "1405543132"
+
